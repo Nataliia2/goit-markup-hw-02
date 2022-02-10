@@ -1,0 +1,120 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #2196f3;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.navigation a {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.navigation a:hover,
+.navigation a:focus,
+.navigation a:active {
+  color: #2196f3;
+}
+
+.contacts a {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts a:hover,
+.contacts a:focus {
+  color: #2196f3;
+}
+
+/*страница студии*/
+h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+h2 {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  text-decoration: none;
+}
+
+h3 {
+  color: #212121;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.features-text p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.command-text p {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Футер */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.address {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.address-contacts a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.address-contacts a:hover,
+.address-contacts a:focus {
+  color: #2196f3;
+}
+
+/* Портфолио*/
+
+.portfolio-text {
+  color: var(--body-color);
+  font-size: 16px;
+  line-height: 1.9;
+  text-decoration: none;
+}
