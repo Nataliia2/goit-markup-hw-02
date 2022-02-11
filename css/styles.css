@@ -1,7 +1,16 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --main-color: #757575;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
-  color: #757575;
+  font-family: var(--main-font);
+  color: var(--main-color);
   letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
 }
 
 .list {
@@ -26,13 +35,16 @@ body {
 }
 
 .navigation a:hover,
-.navigation a:focus,
-.navigation a:active {
+.navigation a:focus {
+  color: #2196f3;
+}
+
+.navigation a:current {
   color: #2196f3;
 }
 
 .contacts a {
-  color: #757575;
+  color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -59,6 +71,17 @@ h1 {
   background-color: #2f303a;
 }
 
+.hero-btn {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
 h2 {
   color: #212121;
   font-weight: 700;
@@ -70,7 +93,7 @@ h2 {
 
 h3 {
   color: #212121;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-decoration: none;
@@ -102,7 +125,6 @@ h3 {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 24px;
-  text-decoration: none;
 }
 
 .address-contacts a:hover,
@@ -112,9 +134,16 @@ h3 {
 
 /* Портфолио*/
 
+.list-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+}
+
 .portfolio-text {
-  color: var(--body-color);
+  color: var(--main-color);
   font-size: 16px;
   line-height: 1.9;
-  text-decoration: none;
 }
