@@ -1,6 +1,8 @@
 :root {
   --main-font: "Roboto", sans-serif;
   --main-color: #757575;
+  --accent-color: #2196f3;
+  --background-color: #2f303a;
 }
 
 body {
@@ -18,12 +20,20 @@ a {
 }
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+}
+
+.logo-accent {
+  color: #212121;
+}
+
+.logo-accent-footer {
+  color: #ffffff;
 }
 
 .navigation a {
@@ -36,11 +46,11 @@ a {
 
 .navigation a:hover,
 .navigation a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
-.navigation a:current {
-  color: #2196f3;
+.navigation .current {
+  color: var(--accent-color);
 }
 
 .contacts a {
@@ -54,7 +64,7 @@ a {
 
 .contacts a:hover,
 .contacts a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*страница студии*/
@@ -62,13 +72,14 @@ h1 {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.37;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 
 .hero-btn {
@@ -104,6 +115,10 @@ h3 {
   line-height: 1.7;
 }
 
+.command {
+  background-color: #f5f4fa;
+}
+
 .command-text p {
   font-size: 16px;
   line-height: 1.19;
@@ -112,7 +127,7 @@ h3 {
 /* Футер */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 
 .address {
@@ -129,7 +144,7 @@ h3 {
 
 .address-contacts a:hover,
 .address-contacts a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* Портфолио*/
@@ -140,6 +155,11 @@ h3 {
   font-size: 16px;
   line-height: 1.6;
   cursor: pointer;
+  border: none;
+}
+.filters .current {
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 .portfolio-text {
